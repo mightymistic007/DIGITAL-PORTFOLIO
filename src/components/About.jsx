@@ -62,16 +62,6 @@ const About = () => {
                 </p>
               </div>
             </div>
-
-            {/* Current Status */}
-            <div className="bg-[#3f4816]/20 p-6 rounded-lg border border-[#d9fb06]/20">
-              <h4 className="text-lg font-semibold text-[#d9fb06] mb-2">Currently</h4>
-              <p className="text-[#888680]">
-                🎓 Student in Coimbatore<br />
-                💼 Salesforce Agentforce Intern at Valuehub<br />
-                🏠 Originally from Hyderabad
-              </p>
-            </div>
           </div>
 
           {/* Right Column - Highlights */}
@@ -88,25 +78,6 @@ const About = () => {
                 <p className="text-[#888680] text-sm">{item.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-
-        {/* Values */}
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-semibold text-white mb-8">What Drives Me</h3>
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="space-y-2">
-              <h4 className="text-[#d9fb06] font-semibold">Innovation</h4>
-              <p className="text-[#888680] text-sm">Creating solutions that make a meaningful impact</p>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-[#d9fb06] font-semibold">Learning</h4>
-              <p className="text-[#888680] text-sm">Continuously expanding knowledge and skills</p>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-[#d9fb06] font-semibold">Excellence</h4>
-              <p className="text-[#888680] text-sm">Striving for quality in every project and endeavor</p>
-            </div>
           </div>
         </div>
       </div>
