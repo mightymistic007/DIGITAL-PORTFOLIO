@@ -48,13 +48,13 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <button
               onClick={() => scrollToSection('projects')}
-              className="btn-primary bg-[#d9fb06] text-[#1a1c1b] px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform duration-300 uppercase tracking-wide"
+              className="bg-[#d9fb06] text-[#1a1c1b] px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform duration-300 uppercase tracking-wide"
             >
               View My Work
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="btn-secondary border-2 border-[#d9fb06] text-[#d9fb06] px-8 py-4 rounded-full font-semibold hover:bg-[#d9fb06] hover:text-[#1a1c1b] transition-all duration-300 uppercase tracking-wide"
+              className="border-2 border-[#d9fb06] text-[#d9fb06] px-8 py-4 rounded-full font-semibold hover:bg-[#d9fb06] hover:text-[#1a1c1b] transition-all duration-300 uppercase tracking-wide"
             >
               Get In Touch
             </button>
