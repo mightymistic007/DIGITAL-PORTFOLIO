@@ -6,6 +6,70 @@ const Footer = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  return (
+    <footer className="bg-[#1a1c1b] border-t border-[#3f4816]/30 relative">
+      <div className="container mx-auto px-6 py-12">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <h3 className="text-2xl font-bold text-[#d9fb06] mb-2">Mohan Krishna</h3>
+            <p className="text-[#888680] mb-6">
+              Passionate about creating intelligent solutions and building the future with AI and technology.
+            </p>
+            
+            <div className="flex space-x-4">
+              <a href="https://www.linkedin.com/in/mohan-krishna-a05893292/" target="_blank" rel="noopener noreferrer" className="text-[#888680] hover:text-[#d9fb06] transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="mailto:mohankrishnaganjikunta@gmail.com" className="text-[#888680] hover:text-[#d9fb06] transition-colors">
+                <Mail className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-[#888680] hover:text-[#d9fb06] transition-colors">
+                <Github className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
+            <div className="space-y-2 text-sm">
+              <p className="text-[#888680]">mohankrishnaganjikunta@gmail.com</p>
+              <p className="text-[#888680]">Coimbatore / Hyderabad</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-4">Currently</h4>
+            <div className="space-y-2 text-sm">
+              <p className="text-[#888680]">🎓 Student</p>
+              <p className="text-[#888680]">💼 Salesforce Intern at Valuehub</p>
+              <p className="text-[#888680]">🚀 Available for opportunities</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-[#3f4816]/30 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-[#888680] text-sm mb-4 md:mb-0 flex items-center">
+            © 2024 Ganjikunta Mohan Krishna. Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> and lots of coffee.
+          </p>
+          
+          <button onClick={scrollToTop} className="flex items-center space-x-2 text-[#888680] hover:text-[#d9fb06] transition-colors">
+            <span className="text-sm">Back to Top</span>
+            <ArrowUp className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;import React from 'react';
+import { Mail, Linkedin, Github, Heart, ArrowUp } from 'lucide-react';
+
+const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
