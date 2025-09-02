@@ -2,7 +2,7 @@
   "homepage": "https://github.com/mightymistic007/DIGITAL-PORTFOLIO",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build"
   }
 }
