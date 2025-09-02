@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yourusername.github.io/repository-name",
+  "homepage": "https://github.com/mightymistic007/DIGITAL-PORTFOLIO",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
